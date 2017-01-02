@@ -203,9 +203,26 @@
     <Compile Include="Migrations\201701010837375_PopulateMembershipTypeForName.Designer.cs">
       <DependentUpon>201701010837375_PopulateMembershipTypeForName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701011333429_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\201701011333429_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>201701011333429_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701011352104_AddBirthDateToCustomer1.cs" />
+    <Compile Include="Migrations\201701011352104_AddBirthDateToCustomer1.Designer.cs">
+      <DependentUpon>201701011352104_AddBirthDateToCustomer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701011611423_CreateMovieAndGenreTables.cs" />
+    <Compile Include="Migrations\201701011611423_CreateMovieAndGenreTables.Designer.cs">
+      <DependentUpon>201701011611423_CreateMovieAndGenreTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201701011614027_PopulateGenre.cs" />
+    <Compile Include="Migrations\201701011614027_PopulateGenre.Designer.cs">
+      <DependentUpon>201701011614027_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -308,6 +325,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701010837375_PopulateMembershipTypeForName.resx">
       <DependentUpon>201701010837375_PopulateMembershipTypeForName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701011333429_AddBirthDateToCustomer.resx">
+      <DependentUpon>201701011333429_AddBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701011352104_AddBirthDateToCustomer1.resx">
+      <DependentUpon>201701011352104_AddBirthDateToCustomer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701011611423_CreateMovieAndGenreTables.resx">
+      <DependentUpon>201701011611423_CreateMovieAndGenreTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701011614027_PopulateGenre.resx">
+      <DependentUpon>201701011614027_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
